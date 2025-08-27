@@ -1,12 +1,3 @@
-Javascript es un lenguaje para programar (entre otras muchas cosas) páginas web con las que puedas interactuar, es decir, páginas web dinámicas. Al principio es normal que sea muy lioso entenderlo. De hecho, hay cientos de cursos de Javascript por toda la web que te enseñan Javascript desde cero, cierto, pero no te explican qué hace let name = "Lucía" en una web, es decir, siempre te enseñan a abrir la consola en VSCode y ¡hala! ¡a declarar variables y comprobar que el código funciona y se ve en el prompt! Practicar la lógica de JS desde una consola está bien para practicar y aprender los conceptos tal cual y memorizarlos pero, a la hora de la verdad... si tienes que programar un botón para que el usuario desde ahí acceda a una página de login, ¿qué utilizas de JavaScript?, ¿qué tienes que combinar de los conceptos de Javascript?
-<br>
-<br>
-Vale, declaramos let name = "Lucía" en un documento .js en VSCode o en una pestaña en blanco en Chrom pero, ¿qué?, ¿eso en una web dónde va?, ¿para qué sirve?, ¿dónde lo inserto?, ¿qué hace?
-<br>
-<br>
-Siempre digo que <b>la teoría sin la práctica no sirve de nada</b>. Programando, practicando y viendo y entendiendo ejemplos (y volver a reproducirlos tú) es como creo que de verdad se aprende y se entiende, por eso he creado este mini repositorio con ejemplos visuales de la teoría básica de JavaScript aplicado en una web, para "abrir" la mente y pensar como un programador. Porque sí, porque un programador no piensa igual que el resto de usuarios de la informática y si quieres programar, tienes que pensar como un programador.
-<br>
-<br>
 <h2>VARIABLES</h2>
 <br>
 <br>
