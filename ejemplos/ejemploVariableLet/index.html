@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ejemplo let - Contador</title>
+  <style>
+    body { font-family: sans-serif; text-align: center; margin-top: 80px; }
+    .btn { padding: 10px 22px; font-size: 1.2rem; margin: 8px; }
+    .contador { font-size: 2rem; margin-bottom: 24px; }
+  </style>
+</head>
+<body>
+  <div class="contador" id="contador"></div>
+  <button class="btn" id="btnSumar">Sumar</button>
+  <button class="btn" id="btnRestar">Restar</button>
+  <script>
+    // Usamos let porque el valor del contador cambia
+    let contador = 0;
+
+    function mostrarContador() {
+      document.getElementById('contador').textContent = "Contador: " + contador;
+    }
+    mostrarContador();
+
+    document.getElementById('btnSumar').onclick = function() {
+      contador++;
+      mostrarContador();
+    };
+    document.getElementById('btnRestar').onclick = function() {
+      contador--;
+      mostrarContador();
+    };
+  </script>
+</body>
+</html>

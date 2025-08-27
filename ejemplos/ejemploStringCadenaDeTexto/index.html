@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <title>Bienvenida, Lucía García</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      body {
+        margin: 0;
+        font-family: 'Segoe UI', Verdana, Geneva, Tahoma, sans-serif;
+        background: linear-gradient(120deg, #f5f7fa 0%, #c3cfe2 100%);
+        min-height: 100vh;
+      }
+      .usuario {
+        position: fixed;
+        top: 24px;
+        right: 32px;
+        background: rgba(255,255,255,0.9);
+        padding: 16px 28px;
+        border-radius: 24px;
+        box-shadow: 0 4px 24px rgba(51, 51, 51, 0.13);
+        font-size: 1.1rem;
+        color: #3a3a3a;
+        letter-spacing: 0.5px;
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        border: 1px solid #e5e5e5;
+        z-index: 10;
+      }
+      .usuario-icono {
+        display: inline-block;
+        width: 32px;
+        height: 32px;
+        background: linear-gradient(135deg, #89f7fe 0%, #66a6ff 100%);
+        border-radius: 50%;
+        text-align: center;
+        font-size: 1.4em;
+        color: #fff;
+        line-height: 32px;
+        box-shadow: 0 2px 6px rgba(66, 165, 245, 0.18);
+      }
+      .titulo {
+        margin-top: 80px;
+        text-align: center;
+        font-size: 2.3rem;
+        color: #44476a;
+        font-weight: 700;
+        letter-spacing: 1.2px;
+        text-shadow: 0 2px 10px #d6d6ed;
+      }
+      .descripcion {
+        margin-top: 30px;
+        text-align: center;
+        color: #505070;
+        font-size: 1.16rem;
+        letter-spacing: 0.2px;
+      }
+      @media (max-width: 600px) {
+        .usuario {
+          top: 12px;
+          right: 12px;
+          padding: 10px 16px;
+          font-size: 1rem;
+        }
+        .usuario-icono {
+          width: 24px;
+          height: 24px;
+          font-size: 1em;
+          line-height: 24px;
+        }
+        .titulo {
+          font-size: 1.4rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="usuario" class="usuario"></div>
+    <div class="titulo">¡Bienvenida a tu espacio personal!</div>
+    <div class="descripcion">
+      Aquí puedes ver tu nombre de usuario mostrado en la esquinita superior derecha.<br>
+      <em>Este ejemplo usa sólo HTML, CSS y JavaScript.</em>
+    </div>
+    <script>
+      // Declaramos la variable: el nombre de usuario
+      let nombreUsuario = "Lucía García";
+
+      // Creamos el HTML del usuario con un icono
+      const usuarioDiv = document.getElementById("usuario");
+      usuarioDiv.innerHTML = `
+        <span class="usuario-icono">👤</span>
+        <span>Usuario: <i>${nombreUsuario}</i></span>
+      `;
+    </script>
+  </body>
+</html>

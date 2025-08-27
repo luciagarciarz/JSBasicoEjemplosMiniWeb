@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ejemplo const - Usuario</title>
+  <style>
+    body { font-family: sans-serif; text-align: center; margin-top: 80px; }
+    .usuario { background: #e7f0fa; display: inline-block; padding: 16px 32px; border-radius: 15px; box-shadow: 0 2px 12px #c3d4e0; }
+    .nombre { font-size: 1.6rem; font-weight: bold; color: #205081; }
+    .info { margin-top: 8px; color: #3d4d5c; }
+  </style>
+</head>
+<body>
+  <div class="usuario">
+    <span class="nombre" id="nombre"></span>
+    <div class="info" id="info"></div>
+  </div>
+  <script>
+    // Usamos const porque los datos del usuario no cambian
+    const usuario = {
+      nombre: "Lucía García",
+      edad: 28,
+      ciudad: "Madrid"
+    };
+
+    document.getElementById('nombre').textContent = usuario.nombre;
+    document.getElementById('info').textContent = `Edad: ${usuario.edad} | Ciudad: ${usuario.ciudad}`;
+  </script>
+</body>
+</html>
