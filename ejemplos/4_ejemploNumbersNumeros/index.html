@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ejemplo de variable número en la web</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f6faff; text-align: center; margin-top: 80px; }
+    .numero { font-size: 2rem; color: #205081; margin: 24px; }
+    .desc { color: #4d5570; font-size: 1.07rem; margin-bottom: 18px; }
+  </style>
+</head>
+<body>
+  <div class="desc">El siguiente número se muestra usando una variable en JavaScript:</div>
+  <div class="numero" id="valorNumero"></div>
+  <script>
+    // Declaramos una variable número
+    const edad = 29;
+    // Mostramos el valor en la web
+    document.getElementById('valorNumero').textContent = "Edad: " + edad;
+  </script>
+</body>
+</html>
