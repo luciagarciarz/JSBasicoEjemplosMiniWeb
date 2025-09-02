@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ejemplo real: null utilizado a propósito</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f7fafd; text-align: center; margin-top: 80px; }
+    .card { background: #fff; display: inline-block; padding: 32px; border-radius: 15px; box-shadow: 0 2px 12px #c3d4e0; }
+    .desc { color: #4d5570; margin-bottom: 24px; }
+    .valor { font-size: 1.2rem; color: #205081; margin-bottom: 16px; }
+    input, button { padding: 8px 16px; font-size: 1rem; border-radius: 6px; border: 1px solid #a7c7e7; margin: 8px 0; }
+    button { background: #a7c7e7; color: #fff; border: none; cursor: pointer; }
+    button:hover { background: #205081; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="desc">
+      Este ejemplo muestra cómo <strong>null</strong> se usa a propósito para indicar que todavía no hay valor en el campo "nombre". El valor se actualiza cuando el usuario rellena el formulario.
+    </div>
+    <div class="valor" id="estadoNombre"></div>
+    <form id="formNombre" onsubmit="guardarNombre(event)">
+      <input type="text" id="inputNombre" placeholder="Introduce tu nombre" />
+      <button type="submit">Guardar nombre</button>
+    </form>
+    <button onclick="resetearNombre()">Resetear a null</button>
+  </div>
+  <script>
+    // Declaramos la variable a propósito con null
+    let nombre = null;
+
+    function mostrarEstado() {
+      const estadoDiv = document.getElementById('estadoNombre');
+      if (nombre === null) {
+        estadoDiv.textContent = "El nombre está vacío (null). Esperando que el usuario lo rellene.";
+      } else {
+        estadoDiv.textContent = "Nombre guardado: " + nombre;
+      }
+    }
+
+    function guardarNombre(e) {
+      e.preventDefault();
+      const valor = document.getElementById('inputNombre').value.trim();
+      if (valor) {
+        nombre = valor; // Se asigna el valor introducido
+        mostrarEstado();
+        document.getElementById('inputNombre').value = '';
+      }
+    }
+
+    function resetearNombre() {
+      nombre = null; // Se vuelve a poner a null a propósito
+      mostrarEstado();
+    }
+
+    mostrarEstado();
+  </script>
+</body>
+</html>
+
+<!-- Este ejemplo usa null explícitamente para indicar que el valor aún no está disponible
+ y después se actualiza cuando el usuario lo introduce en el formulario. 
+ También puedes volver a ponerlo a null con el botón para ver el flujo completo. -->
