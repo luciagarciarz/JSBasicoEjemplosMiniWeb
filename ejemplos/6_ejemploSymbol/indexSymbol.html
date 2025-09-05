@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Symbol sencillo en la web</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f6f8fa; text-align: center; margin-top: 70px; }
+    .card { background: #fff; display: inline-block; padding: 36px 50px; border-radius: 12px; box-shadow: 0 2px 10px #b6cbe0; }
+    .prop { font-size: 1.1rem; margin: 12px 0; }
+    .clave { color: #205081; font-weight: bold; }
+    .symbol { color: #fff; background: #205081; padding: 5px 14px; border-radius: 7px; margin-left: 8px; font-weight: bold; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h2>Usuario con Symbol</h2>
+    <div class="prop"><span class="clave">Nombre:</span> <span id="nombre"></span></div>
+    <div class="prop"><span class="clave">Email:</span> <span id="email"></span></div>
+    <div class="prop"><span class="clave">ID:</span> <span class="symbol" id="simbolo"></span></div>
+  </div>
+  <script>
+    // Creamos el Symbol y el objeto usuario
+    const ID_USUARIO = Symbol("idUsuario");
+    const usuario = {
+      nombre: "Lucía",
+      email: "lucia@email.com",
+      [ID_USUARIO]: 987654
+    };
+    // Mostramos las propiedades normales y la del Symbol
+    document.getElementById('nombre').textContent = usuario.nombre;
+    document.getElementById('email').textContent = usuario.email;
+    document.getElementById('simbolo').textContent = usuario[ID_USUARIO];
+  </script>
+</body>
+</html>

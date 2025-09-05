@@ -13,7 +13,7 @@ let name = "Lucía"
 const name = "Lucía"
 <br>
 <br>
-¿Cómo saber cuándo tengo que poner let o const? Si el dato que le vamos a dar a la máquina es un dato que puede cambiar, pondremos let antes del tipo de dato, sin embargo si le queremos decir a la máquina que ese dato no puede cambiar, pondremos const.
+¿Cómo saber cuándo tengo que poner let o const? Si el dato que le vamos a dar a la máquina es un dato que puede cambiar, pondremos let antes del tipo de dato, sin embargo, si le queremos decir a la máquina que ese dato no puede cambiar, pondremos const.
 <br>
 <br>
 En la carpeta "ejemploVariableLet" podemos ver en el index un contador web. En la etiqueta "script" se ha insertado el código JS donde se declara una variable let contador = 0 porque los números del contador van a cambiar en función de si pulsamos el botón de sumar o restar

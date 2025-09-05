@@ -4,7 +4,7 @@
 En el mundo real también existe el vacío, la nada y eso también podemos hacer que la máquina sepa que tenemos un dato que es precisamente eso: nada. 
 <br>
 <br>
-Cuando se crea una variable, por defecto siempre va a ser undefined a menos que le des un valor (un string, number, null, etc). Parece norma que, cuando encuentras un curso de JS, todo el mundo explica este apartado junto con un null y cero para aprender a diferenciarlos y creando confusión. Es más sencillo que todo eso. Null es poner un valor nulo a propósito, cero es eso mismo, valor 0 y undefined es cómo está cualquier variable a la que todavía no se le ha dado valor.
+Cuando se crea una variable, por defecto siempre va a ser undefined a menos que le des un valor (un string, number, null, etc). Parece norma que, cuando encuentras un curso de JS, todo el mundo explica este apartado junto con un null y cero para aprender a diferenciarlos y creando confusión. Es más sencillo que todo eso. Null es poner un valor nulo a propósito; cero es eso mismo, el valor 0 y undefined es cómo está cualquier variable a la que todavía no se le ha dado valor.
 <br>
 <br>
 let (nombre de la variable) = 
