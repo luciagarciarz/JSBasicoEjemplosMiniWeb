@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Booleano y Estética</title>
+  <style>
+    body {
+      transition: background 0.5s;
+      text-align: center;
+      font-family: sans-serif;
+      margin-top: 70px;
+    }
+    #valor {
+      font-size: 1.4em;
+      margin: 24px;
+    }
+    #boton {
+      font-size: 1em;
+      padding: 8px 22px;
+      border-radius: 6px;
+      border: 1px solid #999;
+      background: #f1f1f1;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h2>El valor es <span id="valor">true</span></h2>
+  <button id="boton" onclick="
+    miBooleano = !miBooleano;
+    document.getElementById('valor').textContent = miBooleano;
+    document.body.style.background = miBooleano ? '#d1e7ff' : '#ffe1e1';
+  ">Cambiar valor</button>
+  <script>
+    let miBooleano = true;
+    // Inicialización visual
+    document.body.style.background = '#d1e7ff';
+  </script>
+</body>
+</html>
