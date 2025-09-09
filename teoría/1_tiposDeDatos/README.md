@@ -4,4 +4,3 @@ Javascript es un lenguaje para programar (entre otras muchas cosas) páginas web
 Una web es igual que una maquinaria con piezas y engranajes. Imaginemos que nuestra web es una maquinaria gigante y el código son esas miles de piezas, tubos y engranajes (grandes y pequeños) que van conectados y encajados entre sí y que hacen que la maquinaria haga una acción (prensar, cortar, separar...). Si yo necesito construir una maquinaria que corte tomates y me enseñan que juntando, por ejemplo, dos engranajes de dos tipos X hacen que giren entre sí, pues... muy bien, giran entre sí pero, con esos dos engranajes, no hago nada. Tendré que poner esos engranajes en algún sitio para que active la máquina y esa máquina empiece a cortar tomates, ¿no? Pues bien, en este minicurso vamos a explicar los conceptos básicos de JS (los tipos de engranajes y piezas que hay) y cómo combinados, hacen algo en una web (la maquinaria). 
 <br>
 <br>
-.
