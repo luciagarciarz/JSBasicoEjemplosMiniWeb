@@ -1,7 +1,7 @@
 <h2>STRINGS</h2>
 <br>
 <br>
-Hemos indicado en el punto 1_declararVariables lo que son las variables y hemos indicado que, detrás de let y const, se indican los datos (ojo, NO objetos) que el ordenador tiene que saber que existen para que luego podamos hacer cosas con ellas. 
+Hemos indicado en el punto 1.declararVariables lo que son las variables y hemos indicado que, detrás de let y const, se indican los datos (ojo, NO objetos) que el ordenador tiene que saber que existen para que luego podamos hacer cosas con ellas. 
 
 Ahora bien, ¿qué tipos de datos podemos indicarle a la máquina? Por ejemplo, si yo quiero que el ordenador sepa que en una web tenemos que hacer que se visualice el nombre de usuario cuando una persona hace clic en el botón de login, tengo que decirle <i>(declararle)</i> que ese concepto (el nombre de usuario), existe. En este caso, para decirle que en nuestra web, en el perfil, hay un nombre de usuario, tengo que usar texto o una concatenación de texto <i>(cadena de texto/string)</i>.
 <br>
