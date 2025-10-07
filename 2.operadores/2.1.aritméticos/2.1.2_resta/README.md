@@ -8,6 +8,9 @@ Puedes probar a ver este resultado en la consola de Node.js escribiendo el sigui
 <br>
 <br>
 let a = "Hola";
+<br>
 let b = "Mundo";
+<br>
 let resultado = a - b; // Esto NO elimina "Mundo" de "Hola"
+<br>
 console.log(resultado); // NaN
