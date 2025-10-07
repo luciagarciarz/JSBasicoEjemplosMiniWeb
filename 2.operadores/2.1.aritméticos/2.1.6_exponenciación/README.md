@@ -4,16 +4,10 @@
 El operador de exponenciación (**) sirve para elevar un número a la potencia de otro.
 <br>
 <br>
-Su sintaxis es
-<br>
-resultado = base ** exponente;
-<br>
-base: el número que quieres elevar
-exponente: la potencia a la que quieres elevarlo
-<br>
-por ejemplo:
+Ejemplo:
 <br>
 let resultado = 2 ** 3; // resultado = 8
+<br>
 Explicación: 2 elevado a 3 (2x2x2) = 8
 <br>
 <br>

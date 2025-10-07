@@ -6,6 +6,7 @@ El operador % devuelve el resto de una división entre dos números. OJO porque 
 <br>
 Se utiliza de esta forma (abre la consola de node.js para verlo):
 <br>
+<br>
 let a = 10;
 <br>
 let b = 3;
