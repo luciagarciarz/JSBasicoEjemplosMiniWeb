@@ -5,11 +5,11 @@ Los operadores de asignación se usan para darle un valor a una variable y, en m
 <br>
 <br>
 Pueden ser:
-<li>
-    <ul>Suma y asignación</ul>
-    <ul>Resta y asignación</ul>
-    <ul>Multiplicación y asignación</ul>
-    <ul>División y asignación</ul>
-    <ul>Módulo o Resto y asignación</ul>
-    <ul>Exponenciación y asignación</ul>
-</li>
+<ul>
+    <li>Suma y asignación</li>
+    <li>Resta y asignación</li>
+    <li>Multiplicación y asignación</li>
+    <li>División y asignación</li>
+    <li>Módulo o Resto y asignación</li>
+    <li>Exponenciación y asignación</li>
+</ul>

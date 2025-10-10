@@ -5,13 +5,13 @@ Los operadores aritméticos se usan para realizar operaciones matemáticas bási
 <br>
 <br>
 Pueden ser:
-<li>
-    <ul>Suma</ul>
-    <ul>Resta</ul>
-    <ul>Multiplicación</ul>
-    <ul>División</ul>
-    <ul>Módulo o Resto</ul>
-    <ul>Exponenciación</ul>
-    <ul>Incremento</ul>
-    <ul>Decremento</ul>
-</li>
+<ul>
+    <li>Suma</li>
+    <li>Resta</li>
+    <li>Multiplicación</li>
+    <li>División</li>
+    <li>Módulo o Resto</li>
+    <li>Exponenciación</li>
+    <li>Incremento</li>
+    <li>Decremento</li>
+</ul>
