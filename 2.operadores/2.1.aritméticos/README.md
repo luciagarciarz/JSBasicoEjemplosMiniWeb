@@ -5,6 +5,8 @@ Los operadores aritméticos se usan para realizar operaciones matemáticas bási
 <br>
 <br>
 Pueden ser:
+<br>
+<br>
 <ul>
     <li>Suma</li>
     <li>Resta</li>

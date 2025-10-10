@@ -5,6 +5,8 @@ Los operadores de asignación se usan para darle un valor a una variable y, en m
 <br>
 <br>
 Pueden ser:
+<br>
+<br>
 <ul>
     <li>Suma y asignación</li>
     <li>Resta y asignación</li>
